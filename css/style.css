@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #70AF85;
+  --branding-color: #48a868;
   --light-branding-color: #e7fae8;
   --headings-color: #707070;
   --branding-font: 'Source Code Pro', monospace;
@@ -14,6 +14,10 @@ h2, h3 {
    font-family: var(--branding-font);
 }
 
+h3 {
+    font-style: italic;
+}
+
 .hero {
 background-color: var(--light-branding-color);
 text-align: left;
@@ -24,9 +28,53 @@ padding: 160px 40px;
     background-color: var(--branding-color);
     font-family: var(--branding-font);
     color: white;
+    padding: 10px 20px;
     
 }
 
 .btn-main:hover {
-    color: #707070;
+    color: var(--headings-color);
+}
+.btn-project {
+    border: solid 1px var(--branding-color);
+    color: var(--branding-color);
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.btn-project:hover {
+      border: solid 1px white;
+    background-color: var(--branding-color); 
+    color: white;
+    
+}
+.container {
+    padding: 20px 0px;
+}
+
+.contact-section {
+    margin-top: 30px;
+    
+}
+
+@media (max-width: 960px) {
+    .work-description {
+        padding: 20px;
+        text-align: center;
+    }
+    h3  {
+        
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    
+    p {
+        text-align: center;
+    
+    }
+    .btn-project {
+        display: block;
+        text-align: center;
+    }
 }
