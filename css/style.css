@@ -5,6 +5,9 @@
   --branding-font: 'Source Code Pro', monospace;
 }
 
+body {
+    padding: 20px;
+}
 h1 {
     font-family: var(--branding-font);
     
