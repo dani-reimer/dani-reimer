@@ -20,8 +20,8 @@ h3 {
 }
 
 p {
-  
-    color: #2b6441;
+  line-height: 1.8;
+    color: #1d2c23;
 }
 
 
@@ -32,6 +32,9 @@ text-align: left;
 padding: 160px 80px;
 }
 
+.about-hero {
+    padding: 160px 80px;
+}
 .btn-main {
     background-color: var(--branding-color);
     font-family: var(--branding-font);
@@ -57,6 +60,11 @@ padding: 160px 80px;
     
 }
 
+.work-description 
+{
+    margin: 0;
+    padding: 0 80px;
+}
 .contact-section {
     margin-top: 30px;
     
