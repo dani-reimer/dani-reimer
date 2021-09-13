@@ -34,6 +34,7 @@ padding: 160px 80px;
 
 .about-hero {
     padding: 160px 80px;
+    background-color: var(--light-branding-color);
 }
 .btn-main {
     background-color: var(--branding-color);
@@ -87,6 +88,7 @@ padding: 160px 80px;
 
 .img-about {
    max-height: 280px;
+   margin: 0 auto;
 }
 @media (max-width: 960px) {
     .work-description {
