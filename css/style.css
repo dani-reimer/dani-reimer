@@ -5,9 +5,7 @@
   --branding-font: 'Source Code Pro', monospace;
 }
 
-body {
-    padding: 20px;
-}
+
 h1 {
     font-family: var(--branding-font);
     
@@ -21,10 +19,17 @@ h3 {
     font-style: italic;
 }
 
+p {
+  
+    color: #2b6441;
+}
+
+
+
 .hero {
 background-color: var(--light-branding-color);
 text-align: left;
-padding: 160px 40px;
+padding: 160px 80px;
 }
 
 .btn-main {
@@ -50,9 +55,6 @@ padding: 160px 40px;
     background-color: var(--branding-color); 
     color: white;
     
-}
-.container {
-    padding: 20px 0px;
 }
 
 .contact-section {
