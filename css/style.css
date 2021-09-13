@@ -70,6 +70,14 @@ padding: 160px 80px;
     
 }
 
+.navbar {
+    font-family: var(--branding-font);
+   color: green;
+}
+
+.navbar a {
+    color: var(--branding-color);
+}
 @media (max-width: 960px) {
     .work-description {
         padding: 20px;
