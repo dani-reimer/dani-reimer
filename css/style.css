@@ -10,7 +10,7 @@ h1 {
     font-family: var(--branding-font);
     
 }
-h2, h3 {
+h2, h3, h4 {
    color: var(--headings-color);
    font-family: var(--branding-font);
 }
@@ -95,7 +95,12 @@ padding: 160px 80px;
    max-height: 280px;
    margin: 0 auto;
 }
-@media (max-width: 900px) {
+@media (max-width: 995px) {
+    
+    .hero {
+        text-align: center;
+    }
+
     .work-description {
         padding: 20px;
         text-align: center;
