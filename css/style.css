@@ -29,12 +29,12 @@ p {
 .hero {
 background-color: var(--light-branding-color);
 text-align: left;
-padding: 160px 80px;
+padding: 80px 80px;
 }
 
 .about-hero {
-    padding: 160px 80px;
-    background-color: var(--light-branding-color);
+    padding: 80px 80px;
+   background-color: var(--light-branding-color);
 }
 .btn-main {
     background-color: var(--branding-color);
@@ -48,6 +48,7 @@ padding: 160px 80px;
 
 .btn-main:hover {
     color: var(--headings-color);
+
 }
 .btn-project {
     border: solid 1px var(--branding-color);
@@ -71,16 +72,25 @@ padding: 160px 80px;
 }
 
 .img-coder {
-    max-height: 200px;
+    max-height: 250px;
 }
 .img-project {
-    max-height: 200px;
+    max-height: 250px;
 }
 .contact-section {
     margin-top: 30px;
     
 }
+.email-link {
+    color: var(--headings-color);
+    font-size: 18px;
+    
+}
 
+.email-link:hover {
+    color: var(--branding-color);
+    text-decoration: none;
+}
 .navbar {
     font-family: var(--branding-font);
    
@@ -92,8 +102,8 @@ padding: 160px 80px;
 }
 
 .img-about {
-   max-height: 280px;
-   margin: 0 auto;
+  
+   
 }
 @media (max-width: 995px) {
     
@@ -129,5 +139,8 @@ padding: 160px 80px;
 
     .img-coder {
 display: none;
+    }
+    .about-section {
+        padding: 40px;
     }
 }
