@@ -1,6 +1,6 @@
 :root {
   --branding-color: #48a868;
-  --light-branding-color: #e7fae8;
+  --light-branding-color: #eef8ee;
   --headings-color: #707070;
   --branding-font: 'Source Code Pro', monospace;
 }
@@ -82,13 +82,14 @@ padding: 80px 80px;
     
 }
 .email-link {
-    color: var(--headings-color);
+    color: var(--branding-color);
     font-size: 18px;
+    text-decoration: none;
     
 }
 
 .email-link:hover {
-    color: var(--branding-color);
+    color: var(--headings-color);
     text-decoration: none;
 }
 .navbar {
