@@ -34,7 +34,7 @@ padding: 80px 80px;
 
 .about-hero {
     padding: 80px 80px;
-   background-color: var(--light-branding-color);
+   
 }
 .btn-main {
     background-color: var(--branding-color);
@@ -82,14 +82,14 @@ padding: 80px 80px;
     
 }
 .email-link {
-    color: var(--branding-color);
+    color: var(--headings-color);
     font-size: 18px;
     text-decoration: none;
     
 }
 
 .email-link:hover {
-    color: var(--headings-color);
+    color: var(--branding-color);
     text-decoration: none;
 }
 .navbar {
@@ -101,7 +101,19 @@ padding: 80px 80px;
     color: var(--branding-color);
 
 }
+.navbar a:hover {
+    color: var(--branding-color) !important;
+}
 
+footer {
+    background-color: var(--light-branding-color);
+    text-align: left;
+padding: 40px 80px 80px 80px;
+}
+
+.icon {
+    color: var(--branding-color);
+}
 .about-photo {
     max-height: 75%;
   
