@@ -159,6 +159,12 @@ padding: 40px 80px 80px 80px;
         text-align: center;
         font-family: var(--branding-font);
     }
+
+    #work-button {
+        display: none;
+        
+
+    }
     .about-hero {
         text-align: center;
         padding: 20px 10px;
@@ -166,13 +172,14 @@ padding: 40px 80px 80px 80px;
     }
 .about-photo {
     max-height: 40%;
+    margin-top: 40px;
 }
 
     .img-coder {
 display: none;
     }
     .about-section {
-        padding: 40px;
+        padding: 20px 60px 0px 60px;
     }
     .about-row {
         margin-bottom: -60px;
