@@ -33,7 +33,7 @@ padding: 80px 80px;
 }
 
 .about-hero {
-    padding: 80px 80px;
+    padding: 80px 80px 20px 80px;
    
 }
 .btn-main {
@@ -77,10 +77,7 @@ padding: 80px 80px;
 .img-project {
     max-height: 250px;
 }
-.contact-section {
-    margin-top: 30px;
-    
-}
+
 .email-link {
     color: var(--headings-color);
     font-size: 18px;
@@ -99,6 +96,7 @@ padding: 80px 80px;
 
 .navbar a {
     color: var(--branding-color);
+    font-style: italic;
 
 }
 .navbar a:hover {
@@ -115,10 +113,22 @@ padding: 40px 80px 80px 80px;
     color: var(--branding-color);
 }
 .about-photo {
-    max-height: 75%;
+    max-height: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+    
   
    
 }
+
+.about-row {
+    margin-bottom: 0px;
+}
+.photo-column {
+    text-align: center;
+}
+
+
 @media (max-width: 995px) {
     
     .hero {
@@ -139,7 +149,11 @@ padding: 40px 80px 80px 80px;
     p {
         text-align: center;
     
-    }
+      
+    }  
+    .btn-main {
+            margin-top: 10px;
+        }
     .btn-project {
         display: block;
         text-align: center;
@@ -150,11 +164,17 @@ padding: 40px 80px 80px 80px;
         padding: 20px 10px;
         
     }
+.about-photo {
+    max-height: 40%;
+}
 
     .img-coder {
 display: none;
     }
     .about-section {
         padding: 40px;
+    }
+    footer {
+        text-align: center;
     }
 }
