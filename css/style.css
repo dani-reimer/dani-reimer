@@ -33,7 +33,7 @@ padding: 80px 80px;
 }
 
 .about-hero {
-    padding: 80px 80px 20px 80px;
+    padding: 80px 80px 0px 80px;
    
 }
 .btn-main {
@@ -122,7 +122,7 @@ padding: 40px 80px 80px 80px;
 }
 
 .about-row {
-    margin-bottom: 0px;
+    margin-bottom: -50px;
 }
 .photo-column {
     text-align: center;
@@ -174,7 +174,11 @@ display: none;
     .about-section {
         padding: 40px;
     }
+    .about-row {
+        margin-bottom: -60px;
+    }
     footer {
         text-align: center;
+        
     }
 }
