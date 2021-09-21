@@ -183,3 +183,32 @@ footer {
     text-align: center;
   }
 }
+
+@media (max-width: 576px) {
+h1 {
+    margin-bottom: 36px;
+}
+
+footer {
+    padding: 20px;
+}
+
+btn {
+    display: block;
+}
+btn-main {
+   display: block;
+    text-align: center;
+   font-size: 6px;
+    
+}
+.email-link {
+    font-size: 16px;
+
+}
+
+h2 {
+    font-size: 20px;
+}
+
+}
