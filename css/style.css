@@ -6,7 +6,7 @@
 }
 
 h1 {
-  font-family:  'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   color: var(--headings-color);
   font-size: 28px;
 }
@@ -15,12 +15,11 @@ h3,
 h4 {
   color: var(--headings-color);
   font-family: var(--branding-font);
-
 }
 
- h2{
+h2 {
   color: var(--headings-color);
-  font-family:  'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 22px;
 }
 
@@ -185,50 +184,44 @@ footer {
 }
 
 @media (max-width: 576px) {
-h1 {
+  h1 {
     margin-bottom: 36px;
     font-size: 20px;
-}
+  }
 
-h2 {
+  h2 {
     font-size: 16px;
-    
-}
+  }
 
-h3 {
+  h3 {
     font-size: 16px;
-}
-.work-description {
+  }
+  .work-description {
     margin: 10px 20px 10px 20px;
-}
+  }
 
-.project-title {
+  .project-title {
     font-size: 18px;
-}
+  }
 
-
-
-footer {
+  footer {
     padding: 20px;
     margin-left: 10px;
-}
+  }
 
-btn {
+  btn {
     display: block;
-}
-btn-main {
-   display: block;
+  }
+  btn-main {
+    display: block;
     text-align: center;
-   font-size: 6px;
-    
-}
-.email-link {
+    font-size: 6px;
+  }
+  .email-link {
     font-size: 16px;
+  }
 
-}
-
-h2 {
+  h2 {
     font-size: 20px;
-}
-
+  }
 }
