@@ -194,7 +194,7 @@ footer {
   }
 
   h3 {
-    font-size: 16px;
+    display: none;
   }
   .work-description {
     margin: 10px 20px 10px 20px;
