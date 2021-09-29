@@ -130,7 +130,7 @@ footer {
 }
 
 .about-row {
-  margin-bottom: -50px;
+  margin-bottom: 20px;
 }
 .photo-column {
   text-align: center;
@@ -170,7 +170,9 @@ footer {
     max-height: 40%;
     margin-top: 40px;
   }
-
+  .about-row {
+    margin-bottom: -100px;
+  }
   .img-coder {
     display: none;
   }
@@ -198,6 +200,11 @@ footer {
   }
   .work-description {
     margin: 10px 20px 10px 20px;
+  }
+
+  .about-photo {
+    max-height: 40%;
+    margin-top: 40px;
   }
 
   .project-title {
