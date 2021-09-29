@@ -76,7 +76,7 @@ p {
   max-height: 250px;
 }
 .img-project {
-  max-height: 250px;
+  max-width: 100%;
 }
 
 .email-link {
@@ -187,10 +187,30 @@ footer {
 @media (max-width: 576px) {
 h1 {
     margin-bottom: 36px;
+    font-size: 20px;
 }
+
+h2 {
+    font-size: 16px;
+    
+}
+
+h3 {
+    font-size: 16px;
+}
+.work-description {
+    margin: 10px 20px 10px 20px;
+}
+
+.project-title {
+    font-size: 18px;
+}
+
+
 
 footer {
     padding: 20px;
+    margin-left: 10px;
 }
 
 btn {
