@@ -195,7 +195,7 @@ footer {
     font-size: 16px;
   }
 
-  h3 {
+  .about-header {
     display: none;
   }
   .work-description {
@@ -203,8 +203,8 @@ footer {
   }
 
   .about-photo {
-    max-height: 40%;
-    margin-top: 40px;
+    height: auto;
+    max-width: 100%;
   }
 
   .project-title {
@@ -224,11 +224,24 @@ footer {
     text-align: center;
     font-size: 6px;
   }
+
+  #work-button {
+   
+  }
   .email-link {
     font-size: 16px;
   }
 
   h2 {
     font-size: 20px;
+  }
+
+  .about-paragraph {
+    margin-bottom: 0px;
+  }
+
+  .photo-column {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
